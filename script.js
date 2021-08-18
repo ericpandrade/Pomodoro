@@ -5,7 +5,7 @@ function getStart(duration) {
         const start = document.querySelector('#minutes')
         const pause = document.querySelector('#pause')
         clickSecurity = true
-        var startPomodoro = setInterval(function () {
+        const startPomodoro = setInterval(function () {
             if (duration >= 0) {
                 let minutes = parseInt(duration / 60)
                 let seconds = parseInt(duration % 60)
@@ -16,7 +16,6 @@ function getStart(duration) {
                     start.innerHTML = 'ShortBreak'
                 }
                 --duration
-
             }
         }, 1000)
         pause.addEventListener ('click', function () {
