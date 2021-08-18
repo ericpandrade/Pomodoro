@@ -1,1 +1,2 @@
-# Criação de um Pomodoro Timer, para treinamento de HTML/CSS e JS.
+# Pomodoro Timer
+## Linguagens HTML/CSS e JavaScript
