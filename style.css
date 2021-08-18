@@ -1,0 +1,66 @@
+/* GLOBAIS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font: 400 1rem Poppins, sans-serif;
+  background: #C6FFDD;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #363732;
+  text-align: center;
+}
+
+#minutes {
+  color: #363732;
+  text-align: center;
+}
+
+
+#container {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 0.75rem;
+}
+
+#timer {
+  font-size: 1.5rem;
+}
+
+figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+i {
+  font: 700 1.75rem Poppins, sans-serif;
+  color: #6A58A2;
+  margin: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.icon-play {
+  font-weight: bold;
+  font-size: 1.3rem;
+  border-radius: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  color: #F4F7F5;
+  background: #6A58A2;
+}
