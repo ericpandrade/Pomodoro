@@ -27,16 +27,17 @@
             <h1>Pomodoro Timer</h1>
             <div id="minutes"></div>
         </div>
-        <div>
-            <figure>
-                <i class="icon-pause-circle" id ="pause">
-                </i>
-                <i class="icon-play" onclick="getStart(1500)">
-                    <span>Play</span>
-                </i>
-                <i class="icon-reload-alt">
-                </i>
-            </figure>
+        <div id="icones">
+          <button onclick="stopPomodoro()">
+            <icon class="icon-pause-circle" id ="pause"></icon>
+          </button>
+          <button id="buttonPlay" onclick="startPomodoro()">
+            <icon class="icon-play"></icon>
+            Play
+          </button>
+          <button>
+            <icon class="icon-reload-alt" onclick="resetPomodoro()"></icon>
+          </button>
         </div>
       </section>
     </main>
