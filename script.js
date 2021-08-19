@@ -33,5 +33,6 @@ const stopPomodoro = () => {
 const resetPomodoro = () => {
     duration = 1500
     isStart = false
+    minutes.innerHTML = 'Reset'
 }
 
