@@ -5,9 +5,11 @@ const startPomodoro = () => {
     const time = document.querySelector('#minutes')
     const button = document.getElementById('buttonPlay')
     isStart = true
+    const container = document.getElementById('container')
 
     if (duration >= 0 && isStart) {
         setTimeout(function () {
+            container.style.width = '500px'
             let minutes = parseInt(duration / 60)
             let seconds = parseInt(duration % 60)
             minutes = minutes < 10 ? '0' + minutes : minutes
@@ -24,6 +26,7 @@ const startPomodoro = () => {
         isStart = false
         button.disabled = false
     }
+
 }
 
 const stopPomodoro = () => {
