@@ -22,7 +22,7 @@ const startPomodoro = () => {
     }
 
     if (duration < 0){
-        minutes.innerHTML = 'ShortBreak'
+        minutes.innerHTML = 'Break'
         isStart = false
         button.disabled = false
     }
